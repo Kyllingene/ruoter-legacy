@@ -1,0 +1,23 @@
+type: SingleTypeGenerator
+name: ruoter brrner
+description: ruoter go brrrrr
+size: 2
+hasPower: true
+hasItems: true
+itemDuration: 30
+powerProduction: 5
+consumes: {
+  items: {
+    items: [
+      ruoter/1
+    ]
+    optional: true
+  }
+}
+requirements: [
+  ruoter/420
+  copper/420
+  lead/420
+]
+category: power
+research: ruoter

@@ -1,0 +1,8 @@
+name: molten ruoter
+description: bad ruoter
+temperature: 0.9
+viscosity: 1.0
+explosiveness: 0.5
+effect: melting
+color: b5925e
+research: water

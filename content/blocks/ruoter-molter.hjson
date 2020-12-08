@@ -1,0 +1,39 @@
+name: ruoter molter
+description: molter melt bad ruoter
+
+type: GenericCrafter
+size: 2
+tier: 2
+liquidCapacity: 50
+
+consumes: {
+	power: 4
+	
+	items: {
+		items: [
+			ruoter/1
+		]
+	}
+}
+
+outputLiquid: {
+	liquid: molten-ruoter
+	amount: 4
+}
+
+hasPower: true
+hasLiquids: true
+
+craftTime: 30
+updateEffect: smeltsmoke
+
+requirements: [
+	copper/420
+	lead/420
+	graphite/420
+]
+
+category: crafting
+research: ruoter
+idleSound: respawning
+idleSoundVolume: 0.5
